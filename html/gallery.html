@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="et">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Galerii</title>
+
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="/node_modules/lightbox2/dist/css/lightbox.css"
+    />
+  </head>
+  <body class="gallery-body">
+    <header class="gallery-header">
+      <nav>
+        <a href="/html/index.html" title="Kodu">
+          <h1>Stella Heinsoo</h1>
+        </a>
+        <ul class="gallery-nav">
+          <li><a href="/html/about.html" title="Minust">Minust</a></li>
+          <li>
+            <a href="/html/gallery.html" title="Galerii">Galerii</a>
+          </li>
+          <li>
+            <a href="/html/contact.html" title="Kontakt">Kontakt</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="lingid">
+      <li>
+        <ul>
+          <a href="/html/gallery.html">
+            <h2 id="active-name">Henri</h2>
+          </a>
+        </ul>
+        <ul>
+          <a class="gallery-link" href="/html/anette.html">
+            <h2>Anette</h2>
+          </a>
+        </ul>
+        <ul>
+          <a class="gallery-link" href="/html/jessika.html">
+            <h2>Jessika</h2>
+          </a>
+        </ul>
+        <ul>
+          <a class="gallery-link" href="/html/stella.html">
+            <h2>Stella</h2>
+          </a>
+        </ul>
+        <ul>
+          <a class="gallery-link" href="/html/rando.html">
+            <h2>Rando</h2>
+          </a>
+        </ul>
+      </li>
+    </div>
+    <section class="gallery">
+      <div class="row">
+        <div class="column">
+          <a href="/images/henri/henri6.JPG" data-lightbox="henri-box"
+            ><img loading="lazy" src="/images/henri/henri6.JPG"
+          /></a>
+          <a href="/images/henri/henri8.JPG" data-lightbox="henri-box"
+            ><img loading="lazy" src="/images/henri/henri8.JPG"
+          /></a>
+          <a href="/images/henri/henri9.JPG" data-lightbox="henri-box"
+            ><img loading="lazy" src="/images/henri/henri9.JPG"
+          /></a>
+        </div>
+        <div class="column">
+          <a href="/images/henri/henri12.JPG" data-lightbox="henri-box"
+            ><img loading="lazy" src="/images/henri/henri12.JPG"
+          /></a>
+          <a href="/images/henri/henri4.JPG" data-lightbox="henri-box"
+            ><img loading="lazy" src="/images/henri/henri4.JPG"
+          /></a>
+          <a href="/images/henri/henri14.JPG" data-lightbox="henri-box"
+            ><img loading="lazy" src="/images/henri/henri14.JPG"
+          /></a>
+        </div>
+        <div class="column">
+          <a href="/images/henri/henri3.JPG" data-lightbox="henri-box"
+            ><img loading="lazy" src="/images/henri/henri3.JPG"
+          /></a>
+          <a href="/images/henri/henri5.JPG" data-lightbox="henri-box"
+            ><img loading="lazy" src="/images/henri/henri5.JPG"
+          /></a>
+          <a href="/images/henri/henri13.JPG" data-lightbox="henri-box"
+            ><img loading="lazy" src="/images/henri/henri13.JPG"
+          /></a>
+        </div>
+        <div class="column">
+          <a href="/images/henri/henri11.JPG" data-lightbox="henri-box"
+            ><img loading="lazy" src="/images/henri/henri11.JPG"
+          /></a>
+          <a href="/images/henri/henri7.JPG" data-lightbox="henri-box"
+            ><img loading="lazy" src="/images/henri/henri7.JPG"
+          /></a>
+          <a href="/images/henri/henri2.JPG" data-lightbox="henri-box"
+            ><img loading="lazy" src="/images/henri/henri2.JPG"
+          /></a>
+        </div>
+      </div>
+    </section>
+
+    <script src="/node_modules/lightbox2/dist/js/lightbox-plus-jquery.js"></script>
+
+    <script>
+      lightbox.option({
+        resizeDuration: 500,
+        wrapAround: true,
+        showImageNumberLabel: false
+      });
+    </script>
+  </body>
+</html>
