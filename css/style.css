@@ -4,33 +4,33 @@
   margin: 0;
   padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 62.5%;
 }
 
 @font-face {
   font-family: "Jost-Thin";
-  src: url("/fonts/Jost-200-Thin.ttf");
+  src: url("/fonts/Jost/Jost-200-Thin.ttf");
 }
 
 @font-face {
   font-family: "Jost-Light";
-  src: url("/fonts/Jost-300-Light.ttf");
+  src: url("/fonts/Jost/Jost-300-Light.ttf");
 }
 
 @font-face {
   font-family: "Jost-Med";
-  src: url("/fonts/Jost-500-Medium.ttf");
+  src: url("/fonts/Jost/Jost-500-Medium.ttf");
 }
 
 @font-face {
   font-family: "Jost-Semi";
-  src: url("/fonts/Jost-600-Semi.ttf");
+  src: url("/fonts/Jost/Jost-600-Semi.ttf");
 }
 
 @font-face {
   font-family: "Jost-Bold";
-  src: url("/fonts/Jost-700-Bold.ttf");
+  src: url("/fonts/Jost/Jost-700-Bold.ttf");
 }
 
 @font-face {
@@ -39,20 +39,12 @@
 }
 
 .index-header {
-  background: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(0, 0, 0, 0.4)),
-      to(rgba(0, 0, 0, 0.2))
-    ),
-    url("/images/winter2.JPG") 0 no-repeat fixed;
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
-    url("/images/winter2.JPG") 0 no-repeat fixed;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.2))), url("/images/winter2.JPG") 0 no-repeat fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)), url("/images/winter2.JPG") 0 no-repeat fixed;
   background-size: cover;
   height: 100vh;
   -webkit-animation: slider 6.5s forwards 1s ease;
-  animation: slider 6.5s forwards 1s ease;
+          animation: slider 6.5s forwards 1s ease;
 }
 
 .index-header h1 {
@@ -67,7 +59,7 @@
   cursor: pointer;
 }
 
-.index-header .fotograafia {
+.index-header h2.fotograafia {
   display: inline-block;
   padding-left: 1.2rem;
   color: #f0f0f0;
@@ -81,11 +73,11 @@ nav {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 6px 26px;
 }
 
@@ -113,19 +105,19 @@ li {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
-  -ms-flex-pack: space-evenly;
-  justify-content: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-.logod img {
+.logod a img {
   position: absolute;
   top: 90rem;
   width: 1.8%;
   -webkit-animation: fade-in 10s;
-  animation: fade-in 10s;
+          animation: fade-in 10s;
 }
 
-.logod img:hover {
+.logod a img:hover {
   width: 1.6%;
 }
 
@@ -351,12 +343,12 @@ p::first-letter {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-line-pack: center;
-  align-content: center;
+      align-content: center;
   margin: 2% auto;
   max-width: 75%;
   padding: 0 6px;
@@ -364,8 +356,8 @@ p::first-letter {
 
 .column {
   -webkit-box-flex: 25%;
-  -ms-flex: 25%;
-  flex: 25%;
+      -ms-flex: 25%;
+          flex: 25%;
   max-width: 25%;
   padding: 0 4px;
 }
@@ -387,14 +379,14 @@ p::first-letter {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: absolute;
   margin-top: 2.6%;
   margin-left: 2.6%;
@@ -429,8 +421,8 @@ label {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   position: relative;
   margin-top: 2%;
   color: #313131;
@@ -443,11 +435,11 @@ label {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto;
   width: 18%;
   font: 2.4rem "Jost-Light";
@@ -458,11 +450,11 @@ label {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 0 auto;
   resize: none;
   width: 30%;
