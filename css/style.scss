@@ -1,0 +1,18 @@
+$main-hover: #edf5f5;
+
+@mixin justifyCenter {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin alignCenter {
+  align-items: center;
+  margin: 0 auto;
+}
+
+@import "_reset";
+@import "_fonts";
+@import "_index";
+@import "_about";
+@import "_gallery";
+@import "_contact";

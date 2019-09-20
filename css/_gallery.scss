@@ -1,0 +1,61 @@
+.row {
+  @include justifyCenter;
+
+  flex-wrap: wrap;
+
+  align-content: center;
+  margin: 2% auto;
+  max-width: 75%;
+  padding: 0 6px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+
+  img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+}
+
+.gallery {
+  position: absolute;
+  top: 10%;
+}
+
+.lingid li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  margin-top: 2.6%;
+  margin-left: 2.6%;
+  z-index: 1;
+}
+
+.lingid ul a {
+  text-decoration: none;
+}
+
+.gallery-link > h2 {
+  display: inline;
+  color: #b1b1b1;
+  font: 2.6rem "Jost-Light";
+  letter-spacing: 0.02em;
+}
+
+.gallery-link h2:hover {
+  color: rgb(15, 15, 15);
+  letter-spacing: 0.08em;
+}
+
+#active-name {
+  display: inline;
+  color: #132e28;
+  font: 3rem "Jost-Med";
+  cursor: default;
+}

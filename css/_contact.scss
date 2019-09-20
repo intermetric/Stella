@@ -1,0 +1,30 @@
+label {
+  @include justifyCenter;
+
+  position: relative;
+  margin-top: 2%;
+
+  color: #313131;
+  font: 3.6rem "Jost-Bold";
+}
+
+#nimi,
+#email {
+  @include justifyCenter;
+
+  @include alignCenter;
+
+  width: 18%;
+  font: 2.4rem "Jost-Light";
+}
+
+#bio {
+  @include justifyCenter;
+
+  @include alignCenter;
+
+  resize: none;
+
+  width: 30%;
+  font: 2.2rem "Jost-Light";
+}

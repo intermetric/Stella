@@ -1,0 +1,104 @@
+// Header
+
+.index-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+    url("/images/winter2.JPG") 0 no-repeat fixed;
+
+  background-size: cover;
+  height: 100vh;
+
+  animation: slider 6.5s forwards 1s ease;
+
+  h1 {
+    display: inline-block;
+
+    color: white;
+    font: 3.2rem "Jost-Semi";
+    letter-spacing: 0.08em;
+
+    &:hover {
+      color: $main-hover;
+      cursor: pointer;
+    }
+  }
+
+  h2.fotograafia {
+    display: inline-block;
+    padding-left: 1.2rem;
+
+    color: #f0f0f0;
+    font: 2.6rem "Jost-Light";
+    letter-spacing: 0.08em;
+
+    cursor: pointer;
+  }
+}
+
+// Navbar
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 26px;
+}
+
+li {
+  display: inline-block;
+  padding: 1.2rem;
+
+  font: 3.4vh "Jost-Semi";
+  letter-spacing: 0.04em;
+
+  list-style-type: none;
+}
+
+.nav a {
+  color: white;
+  text-decoration: inherit;
+
+  &:hover {
+    color: $main-hover;
+    cursor: pointer;
+  }
+}
+
+//Ikoonid
+
+.logod {
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
+
+  a img {
+    position: absolute;
+    top: 90rem;
+    width: 1.8%;
+
+    animation: fade-in 10s;
+
+    &:hover {
+      width: 1.6%;
+    }
+  }
+}
+
+// Animatsioonid
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slider {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
