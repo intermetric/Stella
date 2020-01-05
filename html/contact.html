@@ -8,7 +8,6 @@
     <title>Kontakt</title>
 
     <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/minimal-inputs.css" />
   </head>
   <body class="contact-body">
     <header class="contact-header">
@@ -28,25 +27,21 @@
       </nav>
     </header>
 
-    <div class="contact-circle"></div>
-    <div class="anthr-contact-circle"></div>
-
     <form action="">
       <label for="nimi">Nimi:</label>
-      <input id="nimi" type="text" name="nimi" id="nimi" />
+      <input id="nimi" type="text" name="nimi" />
 
       <label for="email">E-mail:</label>
-      <input class="email" type="email" name="email" id="email" required />
+      <input id="email" type="email" name="email" required />
 
       <label for="bio">Sõnum:</label>
 
       <textarea
-        placeholder="Kirjuta mulle"
-        class="bio"
-        name="bio"
         id="bio"
+        name="bio"
         cols="10"
         rows="10"
+        placeholder="Kirjuta mulle"
       ></textarea>
 
       <button class="send"><h1>Saada</h1></button>
